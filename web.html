@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Weather Dashboard - Agasthiswaram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .dashboard {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .sun-moon {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h1>️ Agasthiswaram Weather Dashboard</h1>
+    <p><strong>Current Temperature:</strong> 27°C</p>
+    <p><strong>Conditions:</strong> Partly Cloudy</p>
+    <p><strong>Wind:</strong> 21 km/h | <strong>Humidity:</strong> 86%</p>
+
+    <div class="section">
+      <h2>️ Today’s Forecast</h2>
+      <ul>
+        <li><strong>Morning:</strong> 29°C, partly sunny</li>
+        <li><strong>Afternoon:</strong> 31°C, chance of a passing shower</li>
+        <li><strong>Evening:</strong> 27°C, breezy</li>
+        <li><strong>Overnight:</strong> 26°C, partly cloudy</li>
+        <li><strong>UV Index:</strong> Low (0 of 11)</li>
+        <li><strong>Air Quality:</strong> 25 – Good</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>️ Hourly Breakdown</h2>
+      <table>
+        <tr><th>Time</th><th>Temp (°C)</th><th>Rain Chance</th></tr>
+        <tr><td>7 AM</td><td>79°</td><td>7%</td></tr>
+        <tr><td>10 AM</td><td>85°</td><td>5%</td></tr>
+        <tr><td>1 PM</td><td>89°</td><td>62%</td></tr>
+        <tr><td>4 PM</td><td>88°</td><td>63%</td></tr>
+        <tr><td>7 PM</td><td>84°</td><td>10%</td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>️ Wind & Pressure</h2>
+      <ul>
+        <li><strong>Direction:</strong> West</li>
+        <li><strong>Gusts:</strong> Up to 13 mph</li>
+        <li><strong>Pressure:</strong> 1010.8 mb</li>
+        <li><strong>Dew Point:</strong> 24°C</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2> Sun & Moon</h2>
+      <div class="sun-moon">
+        <div><strong>Sunrise:</strong><br>6:08 AM</div>
+        <div><strong>Sunset:</strong><br>6:27 PM</div>
+        <div><strong>Moon Phase:</strong><br>Waxing Crescent</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2> Satellite View</h2>
+      <p>Check live radar and overlays at <a href="https://zoom.earth/places/india/tamil-nadu/" target="_blank">Zoom Earth</a>.</p>
+    </div>
+  </div>
+</body>
+</html> 
